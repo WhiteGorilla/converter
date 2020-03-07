@@ -1,0 +1,41 @@
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.wrap {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  &:first-child {
+    margin-right: 20px;
+  }
+}
+
+.multiselect {
+  margin: 10px 0;
+  width: 135px;
+}
+
+.value {
+  width: 135px;
+  min-height: 40px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  font-size: 14px;
+}
+
+.result {
+  padding: 11px ;
+}
+
+.warning {
+  color: red;
+}
